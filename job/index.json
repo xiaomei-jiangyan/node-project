@@ -1,0 +1,15 @@
+/api/user/register
+请求的方式是：post
+请求参数：name password
+
+注册成功
+{
+	"ret": true,
+	"data": true
+}
+
+注册失败
+{
+	"ret":true,
+	"data":false
+}

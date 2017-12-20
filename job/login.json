@@ -1,0 +1,23 @@
+/api/user/login
+
+post
+
+name
+password
+
+返回
+
+{
+	ret:true,
+
+	data:{
+		login:true
+	}
+}
+
+{
+	ret:true,
+	data:{
+		login:false
+	}
+}

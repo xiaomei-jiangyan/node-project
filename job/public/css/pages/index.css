@@ -1,0 +1,8 @@
+/*这部分内容是对bootstrap的重置*/
+.navbar{
+	border-radius: 0;
+}
+.alert-info{
+	margin:0 30px;
+}
+/*这部分的代码是页面级别代码*/

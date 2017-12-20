@@ -1,0 +1,33 @@
+app.js：
+	创建即运行express框架
+前端部分：
+	写在public里，目录分为common(公共样式目录)、base(存放bootstrap、JQuery)、page(不同页面)
+后端部分：
+	routes(路由)
+-->
+	controller(控制层)
+-->					<---
+	model(数据层)
+-->		
+	utils(连接数据库)
+
+首页
+
+注册步骤：先从静态页面开始-->点击注册弹出注册框-->填写注册信息-->点击注册，进行表单验证(这里省略)，同时用ajax把填写的注册信息发送给后端-->后端路由接受到以后调用controller控制层的register方法，-->控制层继续调model数据层的findOneUser和saveUser方法-->符合要求以后发送到mongoose模块连接的MongoDB数据库
+
+
+前提：npm install cookie-session --save 
+在app.js里加入(要放在路由之前)
+app.use(cookieSession({
+  name: 'session',
+  secret: "wqerqwerqwerqwerqwre",
+  maxAge: 7 * 24 * 60 * 60 * 1000
+}))
+登录步骤:点击登录-->login.js使用ajax调取name和password进行判断，如果相同登录成功-->隐藏登录和注册，显示退出-->到路由，添加login、islogin、logout的回调-->Controller层创建login、islogin、logout3个方法-->控制层继续调model数据层的findOneUser和saveUser方法-->返回到前端部分，进行相应的效果实现
+
+
+
+列表页
+
+添加职业并显示在页面上：先配置好静态页面-->给添加按钮绑定事件-->使用ajax进行数据传输-->经过路由-->到达controller层-->在控制层调用model层的方法-->model层连接数据库进行添加操作
+显示在页面上的过程类似，只不过在controller层调用的是model层findAll方法查询Position所有数据，然后再用getList方法返回到静态页面上
