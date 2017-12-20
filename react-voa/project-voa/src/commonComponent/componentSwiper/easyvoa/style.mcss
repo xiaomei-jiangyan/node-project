@@ -1,0 +1,33 @@
+div,p,h1,h2,h3,h4,h5,ul,li{
+	                      margin:0;
+                          padding:0;}
+.header{
+	overflow:hidden;
+	margin:0 auto;
+	padding-top:10px;
+	height:60px;
+	width:1024px;
+	background:#fff;
+ }
+li{list-style:none;}
+.header img{
+	   float:left;
+	   margin-left:40px;
+	   width:196px;
+	   height:55px;
+}
+.header-list{
+	float:right;
+    width:700px;
+	height:56px;
+}
+.header-list li{
+	 text-align:center;
+	 list-style:none;
+	 float:left;
+	 border-right:1px solid #ccc;
+     margin:3px 5px;
+	 padding:2px 6px;
+	 font-size:10px;
+	}
+.header-list li:hover{color:red;}

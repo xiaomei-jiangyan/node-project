@@ -1,0 +1,23 @@
+.tail{
+	clear:both;
+	margin:0 auto;
+	margin-top:4px;
+	width:1024px;
+	height:90px;
+	text-align:center;
+	background:#f8f8f8;
+	border:1px solid #aaa;
+	font-size:14px;
+}
+.tail-version{
+	line-height:30px;
+}
+.tail-text{
+	line-height:30px;
+	color:orange;
+	font-size:14px;
+}
+.tail-gif{
+	margin:0 auto;
+	text-align:center;
+}

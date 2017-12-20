@@ -1,0 +1,42 @@
+div,p,h1,h2,h3,h4,h5,ul,li{
+	                      margin:0;
+                          padding:0;}
+.voiceUS{
+	margin-top:40px;
+	background:#fff;
+	width:1022px;
+	margin:0 auto;
+	height:auto;
+	border:1px solid #f44;
+}
+
+.redVoice{
+	background:#f44;
+	line-height:25px;
+	color:#fff;
+	font-size:12px;
+	height:25px;
+	text-align:left;
+	padding-left:15px;
+	font-weight:normal;
+}
+.list-voice{
+   cursor:pointer;
+}
+.voice-title{
+	margin-left:10px;
+	font-size:12px;
+	margin-right:6px;
+}
+.voice-title:hover{
+	background:rgba(96,170,233,0.4)
+}
+.voice-text{
+	font-size:12px;
+}
+.voice-text:hover{
+	display:inline;
+	background:rgba(96,170,233,0.4);
+	margin-left:3px;
+
+}

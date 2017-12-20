@@ -1,0 +1,31 @@
+.friend-link{
+	margin:0 auto;
+	margin-top:10px;
+	border:1px solid #333;
+	width:1024px;
+	height:125px;
+	background:#edf8fc;
+}
+.friend-link-voa{
+	height:25px;
+	background:#0066cc;
+	line-height:25px;
+	color:#fff;
+	font-size:12px;
+	padding-left:15px;
+}
+.friend-link-list{
+	width:1024px;
+	height:100px;
+	background:#fff;
+}
+.friend-link-item{
+      float:left;
+	  padding:2px 3px;
+	  color:#3D81F2;
+	  width:84px;
+	  text-align:center;
+	  font-size:12px;
+	  line-height:25px;
+
+}

@@ -1,0 +1,58 @@
+
+#mes{
+	margin: 20px 0 30px;
+	padding: 8px 0 0 8px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	overflow: hidden;
+}
+#mes_inp{
+	border: none;
+	color: rgb(153, 153, 153);
+	width: 970px;
+	height: 80px;
+	outline: none;
+	font-size: 14px;
+	overflow: auto;
+	--resize: none;
+}
+.fb{
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+}
+#issue{
+	width: 100px;
+	height: 30px;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	font-family: arial;
+	color: #333;
+	display: inline-block;
+	float: right;
+	text-align: center;
+}
+.lif{
+	margin-top:25px;
+}
+#mes_ul{
+	border-bottom: 1px solid #eaeaea;
+	word-wrap: break-word;
+	width:983px;
+	height: 74px;
+	line-height: 26px;
+}
+#user{
+	color: #D32;
+	font-family: Verdana;
+	font-weight: bold;
+}
+#cont{
+	line-height: 20px;
+}
+#tim{
+	color: #bbb;
+}

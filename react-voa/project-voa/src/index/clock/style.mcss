@@ -1,0 +1,8 @@
+.clock{
+	position:relative;
+}
+.canvas{
+	position:absolute;
+	top:-447px;
+	right:149px;
+}

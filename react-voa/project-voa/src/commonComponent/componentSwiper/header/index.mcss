@@ -1,0 +1,61 @@
+div,p,h1,h2,h3,h4,h5,ul,li{
+	                      margin:0;
+                          padding:0;}
+.indexList{
+	      padding:0;
+	      width:1024px;
+          margin:0 auto;
+          background:#fff;
+          height:110px;
+}
+.normal,.slow,.fashion{
+	       float:left;
+           
+           border-bottom:1px solid #ffe9d3;
+           border-top:1px solid #ffe9d3;
+         }
+.normal h1,.slow h1,.fashion h1{
+      height:27px;
+      background:#fdf4e5;
+      color:#666;
+      line-height:26px;
+      text-align:center;
+      font-size:12px; 
+      font-weight:normal;
+      color:#333;
+}
+.normal li,.slow li,.fashion li{
+	     float:left;
+	     height:23px;
+	     text-align:center;
+	     line-height:20px;
+	     font-size:12px;
+	     padding:1px 1px;
+	     color:#666;
+}
+.normal li:hover{color:red;}
+.slow li:hover{color:red;}
+.fashion li:hover{color:red;}
+
+.normal{
+    width:110px;
+    border-right:1px solid #ffe9d3;
+	border-left:1px solid #ffe9d3;
+}
+.normal li{
+	width:65px;
+}
+.slow{
+	width:420px;
+	border-right:1px solid #ffe9d3;
+}
+.slow li{
+	width:65px;
+}
+.fashion{
+	width:490px;
+	border-right:1px solid #ffe9d3;
+}
+.fashion li{
+	width:75px;
+}
